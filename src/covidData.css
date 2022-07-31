@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(2, 11, 20);
+    color: #fff
+  }
+  .covidData {
+    /* background-color: rgb(214, 251, 7); */
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 10px;
+  }
+    
+  /* input stylings */
+    
+  .covidData__form {
+    padding: 10px;
+    margin: 20px;
+  }
+  .covidData__input {
+
+  display: flex;
+  flex-direction: row;
+}
+  .covidData__input input {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+  }
+  .covidData__input button {
+    width: 100px;
+    /* height: 50px; */
+    /* margin-top: 10px; */
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    /* border-radius: 10px; */
+    border: none;
+    /* box-shadow: 5px 5px 5px rgb(71, 67, 67); */
+    cursor: pointer;
+  }
+    
+  /* detail stylings */
+    
+  .covidData__country__info {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 10px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgb(71, 67, 67);
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+  }
+
+
+  .covid19-info{
+    border: 1px solid #fff;
+    background: #f9f9f9;
+    margin: 3% 30%;
+    padding: 20px 0px;
+    color: #000;
+  }
+
+
+  .InputError{
+    color: red;
+    text-align: center;
+  }
+
+  .hr-line{
+    margin: 3% 30%;
+  
+  }
+
+  .title{
+    color: #fff;
+  }
+
+  .states-Ex{
+    padding: 10px;
+    color: #dddddd;
+  }
+
+  #limheight {
+    /* height: 300px; your fixed height */
+    /* -webkit-column-count: 3; */
+       /* -moz-column-count: 3; */
+            /* column-count: 3; 3 in those rules is just placeholder -- can be anything */
+}
+
+#limheight li {
+    display: inline-block; /*necessary*/
+    text-decoration: underline;
+}
+
